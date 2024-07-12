@@ -1,0 +1,40 @@
+.bg{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    padding: 10px;
+}
+.smiley{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: orange;
+}
+.eye1{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: rgb(103, 75, 39);
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+.eye2{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: rgb(103, 75, 39);
+    position: relative;
+    top: 24px;
+    left: 120px;
+}
+.mouth{
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    top: 80px;
+    left: 50px;
+    border: none;
+    border-radius: 0px 0px 20px 20px;
+}

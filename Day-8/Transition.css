@@ -1,0 +1,35 @@
+div{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    transition: 1s;
+}
+div:hover{
+    border-radius: 50%;
+    background-color: black;
+}
+.transition2{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(94, 7, 223);
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+.transition2:hover{
+    background-color: chartreuse;
+    height: 300px;
+    width: 300px;
+}
+.transition3{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(94, 7, 223);
+    margin: 0 auto;
+    transition-duration: 2s;
+    transition:margin-left 2s ease-in-out 0.2s;
+    
+}
+.transition3:hover{
+    margin-left: 100px;
+    background-color: gold;
+}
