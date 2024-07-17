@@ -1,0 +1,27 @@
+.responsive{
+    height: 30px;
+    width: 100%;
+    background-color: yellow;
+    border: 2px solid black;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/* @media(min-width:500px){
+    .responsive{
+        background-color: chartreuse;
+    }
+} */
+
+@media(max-width:500px){
+    .responsive{
+        background-color: red;
+    }
+}
+@media(min-width:500px) and (max-width:600px){
+    .responsive{
+        background-color: darkorange;
+    }
+}

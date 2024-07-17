@@ -1,0 +1,29 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    /* animation-name: fontAnimate;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-iteration-count: 3; */
+
+    animation: fontAnimate 3s ease-in 2s infinite alternate-reverse;
+
+}
+@keyframes widthAnimate{
+    form{
+        width: 20px;
+    }
+    to{
+        width: 400px;
+    }
+}
+@keyframes fontAnimate{
+    form{
+        font-size: 20px;
+    }
+    to{
+        font-size: 50px;
+    }
+}

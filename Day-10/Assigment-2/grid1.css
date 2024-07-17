@@ -1,0 +1,44 @@
+.container {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 10px;
+    border: 1px solid black;
+}
+
+.container div {
+    background-color: pink;
+    font-size: 1.5rem;
+    border: 1px solid black;
+}
+.header {
+    grid-column: 1 / span 12;
+    background-image: url(https://cdn.pixabay.com/photo/2015/09/26/11/21/banner-958962_1280.jpg);
+    background-size: cover;
+}
+.navigation{
+    grid-column: 1 / span 12;
+    background-image: url(https://cdn.pixabay.com/photo/2015/09/26/11/21/banner-958962_1280.jpg);
+    background-size: cover;
+}
+.sidebar {
+    grid-column: 1 / span 3;
+    grid-row: 3 / span 10;
+    background-image: url(https://is.zobj.net/image-server/v1/images?r=8piOHr6wvhLUckG4MhbbECs6Aj-oi3Y_CPXbNk_54VA6QFsd01wL6z0k83Rn66mLiiXT4UMHDJxhKyVh62qXAWnMzmXmC1AYmcSj6u-zMjgDiEGw204Vr8zOxZeYGNIvj3Ygx1DPmI_1Wj_u-c7W1g7JwcRcV0koS4aFnR7XYAoJKkg8j7iXWURCgsKka2j4u573tHM8ahO-4ei9Y_Uqg-MBJzZ__FCrYdiqWNDER5hmB78yqDren6U0-UY);
+    background-size: cover;
+}
+.main {
+    grid-column: 4 / span 9;
+    grid-row: 3 / span 10;
+    background-image: url(https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article25330717.ece/ALTERNATES/s1200c/0_GettyImages-1433532233.jpg);
+    background-size: cover;
+}
+.ads{
+    grid-column: 1 / span 3;
+}
+.footer{
+    grid-column: 4 / span 9;
+}
